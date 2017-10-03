@@ -1,10 +1,10 @@
 body {
   font-family: "Inconsolata", monospace;
   text-align: center;
-   background-color: #aaaaaa;
 }
 body > div {
   transition: all 0.3s ease;
+   background-color: #aaaaaa;
 }
 .sticky {
   opacity: 0.7;
@@ -23,7 +23,9 @@ h1 {
 h2 {
   font-size: 1.6em;
 }
-
+h3 {
+  font-size 1.4em;
+}
 #banner {
   background-repeat: no-repeat;
   background-color: #aaaaaa;
@@ -95,6 +97,7 @@ i:hover {
 }
 .wraper {
   display: flex;
+  flex-direction: column;
   background-color: #aaaaaa;
   
 }
@@ -125,7 +128,7 @@ i:hover {
 }
 .contactPage {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   height: 100vh;
   width: 100vw;
   background-image: url("https://www.dropbox.com/s/zi1v69wwkjx95kk/File%202017-09-29%2017%2029%2045.jpeg?dl=1");
@@ -204,14 +207,19 @@ justify-content: space-between;
   border: 0px solid #000000;
 }
 .pitch {
+  
   color: #2c579e;
-  width: 70%;
-  padding: 3rem;
+  width: 100%;
+  padding: 1rem;
   margin: auto;
   background-color: #aaaaaa;
   opacity: 0.8;
-  border-radius: 20%;
+  
   
   bottom: 0;
 }
 
+#overflow{
+  background-color: #aaaaaa;
+  height: 100vh;
+}
