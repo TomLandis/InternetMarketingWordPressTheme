@@ -123,6 +123,8 @@ i:hover {
   justify-content: space-around;
 }
 .contactPage {
+  display: flex;
+  flex-direction: row-reverse;
   height: 100vh;
   width: 100vw;
   background-image: url("https://www.dropbox.com/s/zi1v69wwkjx95kk/File%202017-09-29%2017%2029%2045.jpeg?dl=1");
