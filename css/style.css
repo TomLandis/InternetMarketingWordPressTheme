@@ -1,6 +1,7 @@
 body {
   font-family: "Inconsolata", monospace;
   text-align: center;
+   background-color: #aaaaaa;
 }
 body > div {
   transition: all 0.3s ease;
