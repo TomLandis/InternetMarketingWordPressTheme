@@ -1,0 +1,214 @@
+body {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+body > div {
+  transition: all 0.3s ease;
+}
+.sticky {
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  opacity: 1;
+  z-index: 99 !important;
+  }
+
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+#banner {
+  background-repeat: no-repeat;
+  background-color: #aaaaaa;
+  background-size: 100vw;
+  margin: auto;
+  padding: 5vw;
+  color: white;
+}
+#logo {
+  margin: auto;
+  background-repeat: no-repeat;
+  width: 20%;
+}
+a {
+  margin-top: 0.5em;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.outer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  margin: 1em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.space{
+  height: 15vh;
+  background-color: #aaaaaa;
+}
+i:hover {
+  color: blue;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.inner {
+  opacity: 0.8;
+  display: inline-block;
+  border-radius: 10%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.inner:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.tops {
+  margin-top: 45px;
+}
+.wraper {
+  display: flex;
+  background-color: #aaaaaa;
+  
+}
+
+.mainPage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://www.dropbox.com/s/ltf0zn0o7pil4sy/File%202017-09-29%2018%2014%2029.jpeg?dl=1");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reviewPage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(" https://www.dropbox.com/s/l3ntc8surd5pqk5/File%202017-10-01%2010%2012%2025.jpeg?dl=1");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.contactPage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://www.dropbox.com/s/zi1v69wwkjx95kk/File%202017-09-29%2017%2029%2045.jpeg?dl=1");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nb{
+  display: flex;
+justify-content: space-between;
+}
+
+.reviewQuote {
+  background-color: #bcd6ff;
+  font-size: 1em;
+  opacity: 0.8;
+ min-height: 30px;
+  min-width: 160px;
+  justify-content: space-evenly;
+   padding: 1em;
+  margin-right: .4em;
+  margin-top: .4em;
+  margin-bottom: .4em;
+  max-width: 400px;
+    color: black;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: table; 
+}
+.vCenter{
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+.reviewQuote p {
+
+  
+    text-align: center;
+}
+
+.reviewQuote:hover {
+  opacity: 1;
+}
+.blockQuote {
+  background-color: #bcd6ff;
+  font-size: 1.2em;
+  opacity: 0.8;
+  padding: 2em;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.blockQuote:hover {
+  opacity: 1;
+}
+
+#getStarted {
+  margin-top: 2em;
+}
+.navBut {
+  padding: .3em;
+   
+}
+
+
+.navBut:hover {
+  transition: all 0.3s ease;
+  background: #53a7ea;
+  color: white;
+  border-radius: 134px 10px 134px 10px;
+  -moz-border-radius: 134px 10px 134px 10px;
+  -webkit-border-radius: 134px 10px 134px 10px;
+  border: 0px solid #000000;
+}
+.pitch {
+  color: #2c579e;
+  width: 70%;
+  padding: 3rem;
+  margin: auto;
+  background-color: #aaaaaa;
+  opacity: 0.8;
+  border-radius: 20%;
+  
+  bottom: 0;
+}
+
